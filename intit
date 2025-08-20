@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#make sure folder is gone from original location
+
+rm -r ./../../Documents/lmms
+
+mkdir ./../../Documents/lmms
+
+ln -s ./../../Repos/musiQ/plugins ./../../Documents/lmms
+ln -s ./../../Repos/musiQ/presets ./../../Documents/lmms
+ln -s ./../../Repos/musiQ/projects ./../../Documents/lmms
+ln -s ./../../Repos/musiQ/samples ./../../Documents/lmms
+ln -s ./../../Repos/musiQ/templates ./../../Documents/lmms
+
